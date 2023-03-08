@@ -74,7 +74,7 @@ header, footer {
     height: 100%;
 }
 /* О курсе */
-.about {
+.about, .shedule {
     background-color: #eee;
 }
 
@@ -101,6 +101,18 @@ header, footer {
     margin: 15px auto 30px;
 }
 
+/* Для кого курс */
+.forwhom h5 {
+    padding: 50px;
+    border: 3px solid var(--color1);
+}
+
+/* Программа курса */
+
+.accordion-button:not(.collapsed) {
+    color: white;
+    background-color: var(--color2);
+}
 /* Цвет */
 .color1 {
     color: var(--color1);
@@ -116,8 +128,4 @@ header, footer {
 
 .bg2 {
     color: var(--color2);
-}
-
-.itd_circle {
-    
 }
